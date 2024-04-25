@@ -1,0 +1,116 @@
+(footprint "3232 Inductor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.572 -6.604 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e335c113-66a6-4cfa-8e0e-80e14098bd89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "3232 Inductor"
+		(at 0 -10.644 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e5eeccac-9e2e-4870-b13d-09d48d431126")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -11.644 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b783ca6b-fd40-4936-be36-493ea77a3019")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -11.644 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d271fcca-7a0d-4f65-a88d-2a315f8f46d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -11.644 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f06f8a2-c918-4189-9c72-8a4c849a6605")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -6.604 -4.572)
+		(end 6.604 4.572)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3076fba7-46c3-4355-be84-37b80dfad459")
+	)
+	(fp_rect
+		(start -6.096 -4.064)
+		(end 6.096 4.064)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "25e0ab30-7390-4240-9da9-845e7eefbc34")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9.144 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b1cca0f3-15f8-4fe2-afce-ccc2ba09e8d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.683 0)
+		(size 2.54 5.334)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e1059007-a5a8-4523-a6cd-1da757fddf8d")
+	)
+	(pad "2" smd rect
+		(at 3.683 0)
+		(size 2.54 5.334)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "400896ad-fac8-437e-9811-52dae90f4eae")
+	)
+)

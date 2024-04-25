@@ -1,0 +1,111 @@
+(footprint "455khz Resonator"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "455k Sawtooth resonator")
+	(tags "Resonator, 455k, Crystal")
+	(property "Reference" "REF**"
+		(at 0 -7.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3a8ad119-2be2-4c8f-8a58-bff98b5b2a8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "455khz Resonator"
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ddd52be2-8a93-4cde-a3c0-216add00e606")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "976a3b04-5dd8-4dcb-8aec-71788307cb79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c1548c3-65f4-44c8-a907-6f14ec5dea86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6aef761d-3e9a-4a4a-a947-f89a75b46f07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.81 -2.54)
+		(end 3.81 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "525b31bd-118f-48b6-9095-4f7e5e37ebff")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c5e7791e-5c64-42c2-a3e8-da2f17d88b81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.49936 0)
+		(size 2.413 2.413)
+		(drill 1.524)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be794c5f-2570-4a4a-b58b-dc98b313b1e7")
+	)
+	(pad "2" thru_hole circle
+		(at 2.49936 0)
+		(size 2.413 2.413)
+		(drill 1.524)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a90d15a-bc5a-4887-b42b-09fc11da7b52")
+	)
+)
